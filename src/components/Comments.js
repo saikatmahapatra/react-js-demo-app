@@ -1,9 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 class Comments extends React.Component {
     render() {
-        return 
-        <div>
+        return <div>
             <div className="user">
                 <p>{this.props.name}</p>
                 <p>{this.props.email}</p>
