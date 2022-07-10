@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Tutorial from './components/Tutorial';
 import Comments from './components/Comments';
+import Clock from './components/Clock';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <main className='container'>
         <h1>Welcome to React.js</h1>
         <Tutorial title="this is a title"></Tutorial>
+        <Clock></Clock>
       </main>
     </div>
   );
